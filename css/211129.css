@@ -1,0 +1,27 @@
+h1 {
+  border: 5px solid red;
+}
+
+h2 {
+  border: 5px solid navy;
+}
+ul {
+  margin: 0;
+}
+.flex-container {
+  width: 600px;
+  height: 400px;
+  border: 1px solid #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flex-item {
+  width: 100px;
+  /* height: 100px; */
+  background-color: rgb(255, 214, 138);
+  flex-direction: column;
+}
+.flex-item:nth-child(even) {
+  font-size: 2em;
+}
